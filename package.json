@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "node-sass": "^6.0.1"
+  },
+  "scripts":{
+    "scss": "node-sass --watch scss/custom.scss css/custom.css",
+    "build": "purgecss --css css/custom.css --content index.html -o css/reducido.css"
+  }
+}
